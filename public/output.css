@@ -640,6 +640,10 @@ video {
   place-self: center;
 }
 
+.rounded-none {
+  border-radius: 0px;
+}
+
 .border-0 {
   border-width: 0px;
 }
@@ -1094,8 +1098,8 @@ video {
     padding-bottom: 200px;
   }
 
-  .lg\:pt-20 {
-    padding-top: 5rem;
+  .lg\:pt-1 {
+    padding-top: 0.25rem;
   }
 
   .lg\:pr-8 {
@@ -1104,6 +1108,10 @@ video {
 
   .lg\:pl-\[24px\] {
     padding-left: 24px;
+  }
+
+  .lg\:pt-0 {
+    padding-top: 0px;
   }
 
   .lg\:text-\[62px\] {
