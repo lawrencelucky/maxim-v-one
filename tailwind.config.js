@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         markpro: ['Mark Pro', 'sans-serif'],
+        markproblack: ['MarkPro Black', 'sans-serif'],
         Manrope: ["Manrope", "sans-serif"],
       },
     },
