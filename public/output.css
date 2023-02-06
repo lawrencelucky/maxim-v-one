@@ -1309,6 +1309,10 @@ video {
     width: fit-content;
   }
 
+  .lg\:w-\[180px\] {
+    width: 180px;
+  }
+
   .lg\:max-w-\[1152px\] {
     max-width: 1152px;
   }
