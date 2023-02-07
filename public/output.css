@@ -1070,6 +1070,10 @@ video {
     width: 380px;
   }
 
+  .md\:max-w-\[462px\] {
+    max-width: 462px;
+  }
+
   .md\:p-8 {
     padding: 2rem;
   }
@@ -1110,6 +1114,10 @@ video {
   .md\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .md\:text-\[64px\] {
+    font-size: 64px;
   }
 
   .md\:leading-\[58px\] {
@@ -1343,6 +1351,10 @@ video {
     max-width: 701px;
   }
 
+  .lg\:max-w-\[1150px\] {
+    max-width: 1150px;
+  }
+
   .lg\:grid-cols-12 {
     grid-template-columns: repeat(12, minmax(0, 1fr));
   }
@@ -1459,6 +1471,18 @@ video {
     padding-bottom: 0px;
   }
 
+  .lg\:pl-0 {
+    padding-left: 0px;
+  }
+
+  .lg\:pl-4 {
+    padding-left: 1rem;
+  }
+
+  .lg\:pl-6 {
+    padding-left: 1.5rem;
+  }
+
   .lg\:text-\[64px\] {
     font-size: 64px;
   }
@@ -1503,12 +1527,32 @@ video {
     right: 0px;
   }
 
+  .xl\:right-\[-50px\] {
+    right: -50px;
+  }
+
+  .xl\:right-0 {
+    right: 0px;
+  }
+
   .xl\:ml-\[144px\] {
     margin-left: 144px;
   }
 
   .xl\:mr-\[100px\] {
     margin-right: 100px;
+  }
+
+  .xl\:mr-\[-0px\] {
+    margin-right: -0px;
+  }
+
+  .xl\:mr-\[-50px\] {
+    margin-right: -50px;
+  }
+
+  .xl\:flex {
+    display: flex;
   }
 
   .xl\:h-\[568px\] {
@@ -1525,6 +1569,22 @@ video {
 
   .xl\:h-\[682px\] {
     height: 682px;
+  }
+
+  .xl\:h-\[71px\] {
+    height: 71px;
+  }
+
+  .xl\:h-\[710px\] {
+    height: 710px;
+  }
+
+  .xl\:h-full {
+    height: 100%;
+  }
+
+  .xl\:max-h-\[710px\] {
+    max-height: 710px;
   }
 
   .xl\:w-\[557px\] {
@@ -1599,6 +1659,10 @@ video {
     width: 845px;
   }
 
+  .xl\:w-\[100\] {
+    width: 100;
+  }
+
   .xl\:max-w-\[739px\] {
     max-width: 739px;
   }
@@ -1613,6 +1677,14 @@ video {
 
   .xl\:max-w-\[462px\] {
     max-width: 462px;
+  }
+
+  .xl\:max-w-\[845px\] {
+    max-width: 845px;
+  }
+
+  .xl\:items-end {
+    align-items: flex-end;
   }
 
   .xl\:gap-\[55px\] {
@@ -1642,6 +1714,16 @@ video {
     padding-bottom: 160px;
   }
 
+  .xl\:py-\[100px\] {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .xl\:py-\[150px\] {
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+
   .xl\:pl-\[144px\] {
     padding-left: 144px;
   }
@@ -1656,5 +1738,13 @@ video {
 
   .xl\:pl-\[54px\] {
     padding-left: 54px;
+  }
+
+  .xl\:pl-0 {
+    padding-left: 0px;
+  }
+
+  .xl\:text-\[64px\] {
+    font-size: 64px;
   }
 };
