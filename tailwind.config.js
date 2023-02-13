@@ -6,7 +6,10 @@ module.exports = {
       fontFamily: {
         markpro: ['Mark Pro', 'sans-serif'],
         markproblack: ['MarkPro Black', 'sans-serif'],
-        Manrope: ["Manrope", "sans-serif"],
+        Manrope: ["Manrope"],
+      },
+      screens: {
+        'xxl': {'min': '1440px'},
       },
     },
   },
