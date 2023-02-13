@@ -896,7 +896,7 @@ video {
 @font-face {
   font-family: "Manrope";
 
-  src: url("../public/font/Manrope-Light.ttf");
+  src: url("../public/font/Manrope-ExtraLight.ttf");
 }
 
 @font-face {
@@ -970,14 +970,14 @@ video {
     padding-bottom: 5rem;
   }
 
-  .md\:py-\[16px\] {
-    padding-top: 16px;
-    padding-bottom: 16px;
-  }
-
   .md\:px-0 {
     padding-left: 0px;
     padding-right: 0px;
+  }
+
+  .md\:py-\[16px\] {
+    padding-top: 16px;
+    padding-bottom: 16px;
   }
 
   .md\:pl-6 {
@@ -1266,8 +1266,8 @@ video {
     padding-left: 24px;
   }
 
-  .lg\:text-\[64px\] {
-    font-size: 64px;
+  .lg\:text-\[55px\] {
+    font-size: 55px;
   }
 
   .lg\:text-5xl {
@@ -1278,10 +1278,6 @@ video {
   .lg\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
-  }
-
-  .lg\:text-\[55px\] {
-    font-size: 55px;
   }
 
   .lg\:leading-\[72px\] {
@@ -1306,8 +1302,8 @@ video {
     position: relative;
   }
 
-  .xl\:left-10 {
-    left: 2.5rem;
+  .xl\:left-\[64px\] {
+    left: 64px;
   }
 
   .xl\:right-0 {
@@ -1316,14 +1312,6 @@ video {
 
   .xl\:right-\[-50px\] {
     right: -50px;
-  }
-
-  .xl\:left-\[64px\] {
-    left: 64px;
-  }
-
-  .xl\:ml-auto {
-    margin-left: auto;
   }
 
   .xl\:ml-0 {
@@ -1375,10 +1363,6 @@ video {
     width: 100%;
   }
 
-  .xl\:w-\[1340px\] {
-    width: 1340px;
-  }
-
   .xl\:max-w-\[557px\] {
     max-width: 557px;
   }
@@ -1393,10 +1377,6 @@ video {
 
   .xl\:max-w-\[462px\] {
     max-width: 462px;
-  }
-
-  .xl\:max-w-\[1440px\] {
-    max-width: 1440px;
   }
 
   .xl\:items-end {
