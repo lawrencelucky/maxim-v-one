@@ -5,15 +5,14 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'Manrope';
-  src: url('../public/font/Manrope-ExtraLight.ttf');
-}
-@font-face {
-  font-family: 'Mark Pro';
-  src: url('../public/font/MarkPro.otf');
-}
-@font-face {
-  font-family: 'MarkPro Black';
-  src: url('../public/font/MarkPro-Black.otf');
-  font-weight: 00;
-} ;
+    font-family: "Manrope";
+    src: url("../public/font/Manrope-ExtraLight.ttf");
+  };
+  @font-face {
+    font-family: "Mark Pro";
+    src: url("../public/font/MarkPro.otf");
+  };
+  @font-face {
+    font-family: "MarkPro Black";
+    src: url("../public/font/MarkPro-Black.otf");
+  };
