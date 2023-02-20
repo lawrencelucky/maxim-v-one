@@ -34,6 +34,18 @@
       href="./public/output.css"
     />
     <title>Maxim</title>
+
+    <style>
+      .section-2 {
+        display: flex;
+      }
+
+      @media screen and (max-width: 1024px) {
+        .section-2 {
+          flex-direction: column-reverse;
+        }
+      }
+    </style>
   </head>
 
   <body>
@@ -115,29 +127,23 @@
     </section>
 
     <!-- Start block Second -->
-    <section class="w-full">
+    <section class="w-full flex">
       <div
-        class="px-4 md:px-6 lg:px-0 xl:pr-[144px] py-10 lg:py-20 lg:py-[100px] lg:max-w-[1440px] mx-auto"
+        class="section-2 px-4 md:px-6 lg:px-0 xl:pr-[144px] pt-10 lg:pt-[100px] lg:max-w-[1440px] mx-auto"
       >
-        <div class="mx-auto lg:flex lg:gap-8 xl:gap-[32px] lg:grid-cols-12">
-          <div
-            class="ml-[-16px] md:ml-[-24px] lg:ml-0 lg:w-fit xl:h-[640px] xl:w-fit md:mb-20 lg:my-0 lg:col-span-6"
-          >
-            <img
-              src="./public/images/Maxim_Product.png"
-              class="mr-0 ml-auto w-full lg:absolute lg:bottom-0 xl:relative xl:max-h-[710px] xl:max-w-[739px]"
-            />
-          </div>
+        <div>
+          <img
+            src="./public/images/Maxim_Product.png"
+            class="lg:max-h-[600px] lg:max-w-[600px] xl:max-h-[710px] xl:max-w-[739px]"
+          />
+        </div>
 
-          <div
-            class="w-full max-w-[557px] flex items-center xl:max-w-[557px] mr-auto lg:ml-auto lg:mr-8 lg:col-span-6"
+        <div class="flex items-center justify-center">
+          <p
+            class="text-[#0B67AA] text-[24px] md:text-5xl font-markproblack font-black tracking-[-1px] leading-10 lg:text-5xl lg:leading-[61px]"
           >
-            <p
-              class="w-full mb-[18px] text-[24px] leading-[32px] md:text-5xl md:leading-[58px] font-markproblack font-black tracking-[-1px] leading-10 lg:text-5xl lg:leading-[61px]"
-            >
-              <span class="text-[#0B67AA]">MAXIM ALL-IN-ONE APP</span>
-            </p>
-          </div>
+            MAXIM ALL-IN-ONE APP
+          </p>
         </div>
       </div>
     </section>
@@ -293,50 +299,20 @@
     <!-- End block -->
     <footer class="bg-white">
       <div class="max-w-screen-xl p-4 py-6 mx-auto lg:py-16 md:p-8 lg:p-10">
-        <div class="mb-10 pb-10">
+        <div class="mb-2">
           <img
             src="./public/images/white_logo.png"
             class="w-[74.92px] md:w-[167px] md:h-[29px] mr-3 sm:h-9"
             alt="Maxim Logo"
           />
         </div>
-        <!-- <div class="mb-10 border-b-[0.5px] border-[#D5D5D7] border-solid">
-          <div
-            class="w-full max-w-[900px] lg:flex lg:justify-between lg:items-center pb-10"
-          >
-            <a
-              href="index.html"
-              class="block mt-8 lg:mt-0"
-            >
-              <img
-                src="./public/images/white_logo.png"
-                class="w-[74.92px] md:w-[167px] md:h-[29px] mr-3 sm:h-9"
-                alt="Maxim Logo"
-              />
-            </a>
-            <a
-              href=""
-              class="block mt-8 lg:mt-0 hover:underline text-base font-Manrope leading-tight text-[#323337]"
-              >Terms and conditons</a
-            >
-            <a
-              href=""
-              class="block mt-8 lg:mt-0 hover:underline text-base font-Manrope leading-tight text-[#323337]"
-              >Presskit</a
-            >
-            <a
-              href=""
-              class="block mt-8 lg:mt-0 hover:underline text-base font-Manrope leading-tight text-[#323337]"
-              >Privacy policy</a
-            >
-          </div>
-        </div> -->
 
         <div class="text-left w-full max-w-[927px]">
-          <span
-            class="block text-base leading-tight lg:text-xl lg:leading-snug text-[#323337] font-light font-Manrope"
-            >Maxim is a product of Monsterlabs Technologies LTD &copy; 2023
-          </span>
+          <p
+            class="block text-[8px] leading-tight text-[#323337] font-light font-Manrope"
+          >
+            Maxim is a product of Monsterlabs Technologies LTD &copy; 2023
+          </p>
         </div>
       </div>
     </footer>
