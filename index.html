@@ -10,6 +10,10 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0"
     />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/aos@next/dist/aos.css"
+    />
     <!-- Favicon -->
     <link
       rel="apple-touch-icon"
@@ -89,11 +93,15 @@
         class="px-4 md:px-6 lg:pl-0 xl:px-0 py-4 lg:py-0 lg:max-w-[1440px] mx-auto relative"
       >
         <div
-          class="w-full pt-[102px] mx-auto lg:flex lg:gap-8 xl:gap-[55px] lg:pt-16 lg:justify-end lg:pt-28 lg:pb-10 xl:h-full"
+          class="w-full pt-[102px] mx-auto lg:flex lg:gap-8 xl:gap-[55px] lg:justify-end lg:pt-28 lg:pb-10 xl:h-full"
         >
           <!-- <div class="relative lg:flex lg:items-center w-full"> -->
           <div
-            class="w-full lg:pl-0 w-fit text-white mr-auto place-self-center lg:absolute lg:left-8 xl:left-[64px] xxl:left-[144px] lg:z-10"
+            class="w-full lg:pl-0 text-white mr-auto place-self-center lg:absolute lg:left-8 xl:left-[64px] xxl:left-[144px] lg:z-10"
+            data-aos="fade-up"
+            data-aos-delay="1000"
+            data-aos-duration="1500"
+            data-aos-easing="ease-in-out"
           >
             <!-- <div > -->
             <p
@@ -112,7 +120,7 @@
           <!-- </div> -->
           <!-- </div> -->
 
-          <div class="gif text-white mt-10 md:mt-20 lg:my-0 gif w-full">
+          <div class="text-white mt-10 md:mt-20 lg:my-0 gif w-full">
             <img
               src="./public/images/ezgif.gif"
               class="xl:ml-0 lg:mt-0 xl:h-auto xl:w-[1440px] hidden lg:block"
@@ -127,26 +135,6 @@
     </section>
 
     <!-- Start block Second -->
-    <section class="w-full flex">
-      <div
-        class="section-2 px-4 md:px-6 lg:px-0 xl:pr-[144px] pt-10 lg:pt-[100px] lg:max-w-[1440px] mx-auto"
-      >
-        <div>
-          <img
-            src="./public/images/Maxim_Product.png"
-            class="lg:max-h-[600px] lg:max-w-[600px] xl:max-h-[710px] xl:max-w-[739px]"
-          />
-        </div>
-
-        <div class="flex items-center justify-center">
-          <p
-            class="text-[#0B67AA] text-[24px] md:text-5xl font-markproblack font-black tracking-[-1px] leading-10 lg:text-5xl lg:leading-[61px]"
-          >
-            MAXIM ALL-IN-ONE APP
-          </p>
-        </div>
-      </div>
-    </section>
 
     <!-- Start block Third-->
     <section class="w-full bg-[#DBF7D7]">
@@ -161,12 +149,20 @@
           >
             <p
               class="w-full mb-6 text-[24px] font-markproblack font-black tracking-[-1px] leading-10 md:text-5xl md:leading-[61px]"
+              data-aos="fade-up"
+              data-aos-delay="500"
+              data-aos-duration="500"
+              data-aos-easing="ease-in-out"
             >
               MAXIM
             </p>
 
             <p
               class="text-base font-light font-Manrope md:leading-7 md:text-xl mb-2"
+              data-aos="fade-up"
+              data-aos-delay="700"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
             >
               <span class="font-black font-markproblack">Maxim</span>
               Infrastructure connects financial and nonfinancial data sources,
@@ -187,6 +183,10 @@
             <img
               src="./public/images/Maxim-illustration.gif"
               class="gifplayer lg:w-[100%] lg:h-[100%] lg:absolute xl:right-[-50px] hidden lg:block"
+              data-aos="fade-left"
+              data-aos-delay="1000"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
             />
           </div>
         </div>
@@ -200,7 +200,13 @@
           <div
             class="justify-self-center w-full bg-[#EEF7FE] xl:flex py-6 xl:h-full"
           >
-            <img src="./public/images/credit_card.svg" />
+            <img
+              src="./public/images/credit_card.svg"
+              data-aos="fade-right"
+              data-aos-delay="1000"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+            />
           </div>
         </div>
 
@@ -209,24 +215,62 @@
             class="w-full max-w-[557px] lg:max-w-[701px] px-4 md:pr-6 lg:pr-8 xl:pr-[144px] text-white py-10 md:py-20 lg:py-[100px] xl:py-[150px] pb-8"
           >
             <p
-              class="w-full mb-[18px] lg:pl-[24px] xl:pl-[54px] text-[24px] leading-[32px] font-markproblack font-black tracking-[-1px] leading-10 md:text-5xl md:mb-6 md:leading-[61px]"
+              class="w-full mb-[18px] lg:pl-[24px] xl:pl-[54px] text-[24px] font-markproblack font-black tracking-[-1px] leading-10 md:text-5xl md:mb-6 md:leading-[61px]"
+              data-aos="fade-up"
+              data-aos-delay="500"
+              data-aos-duration="500"
+              data-aos-easing="ease-in-out"
             >
-              Credit cards, loans,<br />B2C App
+              For Fintechs and Service Providers
             </p>
             <p
               class="text-base font-light font-Manrope md:leading-7 md:text-xl mb-6 lg:pl-[24px] xl:pl-[54px]"
+              data-aos="fade-up"
+              data-aos-delay="700"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
             >
               Leveraging Maxim's infrastructure, service providers can offer you
               life-changing financial products and services from day 1.
             </p>
-            <p
-              class="text-base font-light font-Manrope md:leading-7 md:text-xl mb-6 lg:pl-[24px] xl:pl-[54px]"
-            >
-              With Maxim Mobile App, Consumers (migrants) can make better plans
-              for the future with clear insights into their credit scores and
-              tips to improve them
-            </p>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="w-full flex">
+      <div
+        class="section-2 px-4 md:px-6 lg:px-0 xl:pr-[144px] pt-10 lg:pt-[100px] lg:max-w-[1440px] mx-auto"
+      >
+        <div>
+          <img
+            src="./public/images/Maxim_Product.png"
+            class="lg:max-h-[600px] lg:max-w-[600px] xl:max-h-[710px] xl:max-w-[739px]"
+            data-aos="fade-right"
+            data-aos-duration="500"
+          />
+        </div>
+
+        <div class="flex flex-col items-center justify-center">
+          <p
+            class="text-[#0B67AA] text-[24px] md:text-5xl font-markproblack font-black tracking-[-1px] leading-10 lg:text-5xl lg:leading-[61px]"
+            data-aos="fade-up"
+            data-aos-delay="500"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+          >
+            MAXIM ALL-IN-ONE APP
+          </p>
+          <p
+            class="text-base font-light font-Manrope md:leading-7 md:text-xl mb-2"
+            data-aos="fade-up"
+            data-aos-delay="700"
+            data-aos-duration="700"
+            data-aos-easing="ease-in-out"
+          >
+            Global credit score, Credit cards, and other related financial
+            services for global citizens.
+          </p>
         </div>
       </div>
     </section>
@@ -284,6 +328,10 @@
         </div>
       </div>
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="./public/script.js"></script>
   </body>
 </html>
